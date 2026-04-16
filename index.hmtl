@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday Baby</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="card">
+    <h1>Happy Birthday Baby 💖</h1>
+
+    <p class="para">
+Very very Happy Birthday Lily,
+
+Aaj ka din aur aaj se harr dinn aur achaa jaaye,
+kushi se bhar jaaye yhi dua toh hai
+
+aur saath mei ek request hai, jyada tangg matt karo yaar
+    </p>
+
+    <div class="question">
+      Will you come on a date with me tomorrow? 💕
+    </div>
+
+    <img class="gif"
+      src="https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif"
+    />
+
+    <div class="buttons">
+      <button class="yes-button" onclick="handleYesClick()">Yes</button>
+      <button class="no-button" onclick="handleNoClick()">No</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
